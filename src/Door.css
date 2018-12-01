@@ -2,15 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
-  color: white;
+  background: #88d8b0;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
   border-radius: 8px;
-  border-left: 50px solid crimson;
-  border-right: 50px solid crimson;
-  transition: border-width 1s ease;
+  /* border-left: 50px solid #88d8b0;
+  border-right: 50px solid #88d8b0;
+  transition: border-width 1s ease; */
 }
 
 .open {
-  border-width: 0;
-  color: crimson;
+  /* border-width: 0; */
+  background: #ff6f69;
+  color: white;
 }

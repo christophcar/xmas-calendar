@@ -3,7 +3,7 @@ import './Counter.css'
 
 class Counter extends Component {
   render() {
-    return <h1>Doors open: {this.props.num}</h1>
+    return <h1>Von Mummli heute geöffnet: {this.props.num}</h1>
   }
 }
 
